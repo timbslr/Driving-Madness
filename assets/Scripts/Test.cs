@@ -13,6 +13,6 @@ public class Test : MonoBehaviour
     void Update()
     {
         if (CarMovement.isDriving)
-            rb.velocity = new Vector3(0,-1.1f,0);
+            rb.linearVelocity = new Vector3(0,-1.1f,0);
     }
 }
