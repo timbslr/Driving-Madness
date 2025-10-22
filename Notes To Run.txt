@@ -1,0 +1,1 @@
+-Start the Game by starting the "StartScene", not the "Main Menu" Scene

@@ -16,7 +16,7 @@ public class MainMenuManager : MonoBehaviour
     private void Awake()
     {
         anim = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Animation>();
-        //transCanvas = GameObject.FindGameObjectWithTag("transCanvas").GetComponent<Animation>();
+        transCanvas = GameObject.FindGameObjectWithTag("transCanvas").GetComponent<Animation>();
         controls = GameObject.FindGameObjectWithTag("controls");
         mainMenu = GameObject.FindGameObjectWithTag("mainMenu");
         GameObject.FindGameObjectWithTag("StartRoad").GetComponent<RoadMovement>().enabled = false; 
